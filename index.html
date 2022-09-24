@@ -4,11 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portofolio</title>
+    <meta
+      name="description"
+      content="Muhammad Usman is a Frontend Developer and technical writer based in Pakistan who is passionate about building web solutions and products"
+    />
+    <meta name="keywords" content="Frontend Developer" />
+    <meta property="og:type" content="website" />
+
+    <title>Muhammad Usman - Frontend Developer</title>
+    <link
+      rel="shortcut icon"
+      href="./images/logo_white.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/14589268d4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <header id="header">
+      <nav class="navBar">
+        <a href="/"
+          ><img class="logo" src="./images/logo_black.png" alt=""
+        /></a>
+
+        <div id="menu">
+          <ul class="header_content">
+            <li class="nav-items">
+              <a href="#" class="btn nav-link"
+                ><i class="nav-icon fas fa-user"></i>About</a
+              >
+            </li>
+            <li class="nav-items">
+              <a href="#" class="btn nav-link"
+                ><i class="nav-icon fas fa-cog"></i>Skills</a
+              >
+            </li>
+            <li class="nav-items">
+              <a href="#" class="btn nav-link"
+                ><i class="nav-icon fas fa-code"></i>Projects</a
+              >
+            </li>
+            <li class="nav-items">
+              <a href="#" class="btn nav-link"
+                ><i class="nav-icon fas fa-address-book"></i>Contact</a
+              >
+            </li>
+            <div class="theme-switcher">
+              <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="switch"></div>
+              </label>
+            </div>
+          </ul>
+
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
     <script src="./script.js"></script>
   </body>
 </html>
