@@ -25,6 +25,18 @@
     ></script>
   </head>
   <body>
+    <div class="music" id="music">
+      <p>
+        <i class="fa-solid fa-music"></i>
+        <span id="sound">Sound</span>
+      </p>
+      <div class="button button1" id="button1">
+        <p>OFF</p>
+      </div>
+      <div class="button button2" id="button2">
+        <p>ON</p>
+      </div>
+    </div>
     <header id="header">
       <nav class="navBar">
         <a href="/"
@@ -34,12 +46,12 @@
         <div id="menu">
           <ul class="header_content">
             <li class="nav-items">
-              <a href="#" class="btn nav-link"
+              <a href="#about" class="btn nav-link"
                 ><i class="nav-icon fas fa-user"></i>About</a
               >
             </li>
             <li class="nav-items">
-              <a href="#" class="btn nav-link"
+              <a href="#skills" class="btn nav-link"
                 ><i class="nav-icon fas fa-cog"></i>Skills</a
               >
             </li>
@@ -68,7 +80,135 @@
           </div>
         </div>
       </nav>
+
+      <section class="content container">
+        <div class="content_text">
+          <h1>Hello!</h1>
+          <h2>
+            I am
+            <a
+              href=""
+              class="typewrite"
+              data-period="2000"
+              data-type='[ "Usman", "عثمان"]'
+            >
+              <span class="wrap"></span>
+            </a>
+          </h2>
+          <h3>Frontend Web Developer</h3>
+          <p>
+            I build websites with a focus on responsive design and
+            accessibility.
+          </p>
+
+          <a href="mailto:muhammad196usman@gmail.com" class="hello_button"
+            >Say Hello <i class="fa-solid fa-envelope"></i
+          ></a>
+          <a href="#about" class="about_button">About Me</a>
+          <div class="links">
+            <a href="https://github.com/Muhammad-Usman-61" target="”_blank”"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/muhammad_usman19/"
+              target="”_blank”"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="content_image grid">
+          <img class="iii" src="./images/profile-pic.png" alt="" />
+        </div>
+      </section>
     </header>
+
+    <main>
+      <section id="about">
+        <div class="bio container">
+          <h4>____About Me____</h4>
+          <p>
+            I’m Muhammad Usman, a Front-End Developer based in Pakistan. I have
+            a serious passion for UI effects, animations and creating intuitive,
+            dynamic user experiences. I am highly proficient in html and CSS,
+            but have built some other projects with JavaScript and jQuery. I am
+            currently working on improving my JavaScript skills by building
+            various projects to enhance my abilities. Interested in the entire
+            frontend spectrum and working on ambitious projects with positive
+            people.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="skills">
+            <div class="skills_header">
+              <h3 class="text-primary">____Benefits____</h3>
+              <h4>Why should you hire me?</h4>
+              <p>
+                When buidling or cloning web projects, I strongly adhere to
+                these principles which make my websites both unique and
+                scaleable.
+              </p>
+            </div>
+            <div class="box-container">
+              <div class="card">
+                <span class="fas fa-search color-1"></span>
+                <h3>SEO(Search Engine Optimization)</h3>
+                <p>
+                  I employ best SEO practices like "Semantic HTML" and more on
+                  websites and projects I work on to improve the site visibility
+                  and rankings on Google.
+                </p>
+              </div>
+              <div class="card">
+                <span class="fas fa-mobile-alt color-2"></span>
+                <h3>Responsive Design</h3>
+                <p>
+                  I am passionate about responsiveness and making the websites I
+                  build look good on different devices, browsers and cross
+                  platforms using both "mobile first" approach and desktop
+                  "media queries"
+                </p>
+              </div>
+              <div class="card">
+                <span class="fas fa-code color-3"></span>
+                <h3>Reusable & Minimal code</h3>
+                <p>
+                  I try my best to write as minimal code as possible by using
+                  tools like CSS Variables and writing custom utility classes.
+                </p>
+              </div>
+              <div class="card">
+                <span class="fas fa-palette color-4"></span>
+                <h3>Great UI/UX & Accessibility</h3>
+                <p>
+                  I have a strong eye for designs, which allows me to transform
+                  templates into pixel-perfect code while making it accessible
+                  to all users.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="icons-container container">
+          <div class="icons">
+            <h1 class="skills_heading">____My Skills____</h1>
+            <span class="icon fab fa-html5" title="HTML5"></span>
+            <span class="icon fab fa-css3-alt" title="CSS3"></span>
+            <span class="icon fab fa-js" title="JavaScript"></span>
+            <span class="icon fab fa-git-alt" title="Git"></span>
+            <span class="icon fab fa-bootstrap" title="Bootstrap"></span>
+          </div>
+        </div>
+      </section>
+
+      <section></section>
+    </main>
+
     <script src="./script.js"></script>
   </body>
 </html>
