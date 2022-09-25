@@ -403,7 +403,7 @@ input:checked + .switch {
   align-self: center;
   padding: 1rem;
 }
-#skills {
+.skill {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
