@@ -370,16 +370,16 @@ input:checked + .switch {
 
 .bio h4 {
   text-align: center;
+  margin-top: 8rem;
   color: var(--primary-color);
-  margin-top: 10rem;
   font-size: 2rem;
   margin-bottom: 3rem;
   text-transform: uppercase;
 }
 
 .bio p {
-  margin-bottom: 10rem;
   line-height: 1.5;
+  margin-bottom: 8rem;
 }
 
 .skills_header h3 {
@@ -445,8 +445,8 @@ input:checked + .switch {
 }
 
 .icons {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
 }
 
 .icons a,
@@ -476,13 +476,14 @@ input:checked + .switch {
   margin-bottom: 2rem;
 }
 
-#skills {
+/* projects */
+
+#projects {
   background: var(--bg-secondary-color);
 }
-
-/* projects */
 .projects h2 {
-  margin-top: 5rem;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
   text-align: center;
   font-size: 2rem;
   color: var(--primary-color);
@@ -741,7 +742,7 @@ input:checked + .switch {
   }
 
   .content .content_image {
-    margin-top: 8rem;
+    margin-top: 10rem;
   }
 
   .skills .skills-header {
