@@ -731,7 +731,7 @@ input:checked + .switch {
 
   .content p {
     visibility: hidden;
-    margin-bottom: 10rem;
+    margin-bottom: 13rem;
   }
 
   /* Hero circle */
