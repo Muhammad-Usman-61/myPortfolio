@@ -523,6 +523,10 @@ input:checked + .switch {
   transform: scale(1.16);
 }
 
+.project-links a {
+  font-size: 2rem;
+}
+
 /* Project CTA */
 .project-content .btn {
   position: absolute;
