@@ -730,7 +730,6 @@ input:checked + .switch {
   }
 
   .content p {
-    visibility: hidden;
     margin-bottom: 13rem;
   }
 
