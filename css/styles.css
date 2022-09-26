@@ -491,6 +491,7 @@ input:checked + .switch {
 .card-content h2 {
   text-align: left;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .projects_part {
