@@ -16,6 +16,7 @@ html {
   --other-color: #ccc;
   --navbar-bg: rgba(0, 0, 0, 0.1);
   --rotate-color: #000;
+  --music-background: rgba(0,0,0,0.3);
 
   /* Icons */
   --color-1: #e65100;
@@ -35,6 +36,7 @@ html {
   --other-color: #232323;
   --navbar-bg: rgba(0, 0, 0, 0.4);
   --rotate-color: #fff;
+  --music-background: rgba(255,255,255,0.3);
 }
 
 * {
@@ -231,8 +233,8 @@ input:checked + .switch {
   margin-top: 80px;
   top: 80px;
   left: 140rem;
-  background: var(--bg-secondary-color);
-
+  background-color: var(--music-background);
+  backdrop-filter: blur(2px);
   width: 12rem;
   border-radius: 5px;
   user-select: none;
