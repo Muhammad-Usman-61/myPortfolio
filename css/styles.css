@@ -596,6 +596,10 @@ input:checked + .switch {
   font-size: 1.1rem;
 }
 
+.project-container .icon-header span{
+  font-size: 2rem;
+}
+
 .project-container .icon-header a:hover {
   color: var(--primary-color);
 }
