@@ -532,7 +532,7 @@ input:checked + .switch {
   font-size: 2rem;
 }
 
-/* Project CTA */
+/* Projects CTA */
 .project-content .btn {
   position: absolute;
   top: 40px;
