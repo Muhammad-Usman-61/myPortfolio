@@ -16,7 +16,7 @@ html {
   --other-color: #ccc;
   --navbar-bg: rgba(0, 0, 0, 0.1);
   --rotate-color: #000;
-  --music-background: rgba(0,0,0,0.3);
+  --music-background: rgba(0, 0, 0, 0.3);
 }
 
 [data-theme="dark"] {
@@ -30,7 +30,7 @@ html {
   --other-color: #232323;
   --navbar-bg: rgba(0, 0, 0, 0.4);
   --rotate-color: #fff;
-  --music-background: rgba(255,255,255,0.3);
+  --music-background: rgba(255, 255, 255, 0.3);
 }
 
 * {
@@ -69,7 +69,7 @@ a {
   color: var(--text-primary-color);
 }
 
-ul li{
+ul li {
   list-style: none;
 }
 h1,
@@ -431,7 +431,7 @@ input:checked + .switch {
   border: 1px solid var(--bg-secondary-color);
 }
 
-.card ul li{
+.card ul li {
   font-size: 1.3rem;
 }
 
@@ -596,7 +596,7 @@ input:checked + .switch {
   font-size: 1.1rem;
 }
 
-.project-container .icon-header span{
+.project-container .icon-header span {
   font-size: 2rem;
 }
 
@@ -620,7 +620,7 @@ input:checked + .switch {
 }
 
 /* More Projects */
-.more_project-head{
+.more_project-head {
   text-align: center;
   font-size: 2rem;
   color: var(--primary-color);
@@ -634,7 +634,7 @@ input:checked + .switch {
   margin-bottom: 3rem;
 }
 
-.more_projects{
+.more_projects {
   padding: 1rem;
 }
 
@@ -648,19 +648,19 @@ input:checked + .switch {
 }
 
 /* Hire Me Now */
-.hire_me_now{
+.hire_me_now {
   background-color: var(--bg-secondary-color);
   padding: 3rem;
 }
 
-.hire_me_now .hire_me{
+.hire_me_now .hire_me {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 1rem;
 }
 
-.hire_me_now p{
+.hire_me_now p {
   font-size: 3rem;
   font-weight: 600;
 }
@@ -671,7 +671,7 @@ input:checked + .switch {
   margin-right: 1rem;
 }
 
-.contact_data .btn1{
+.contact_data .btn1 {
   background: var(--text-primary-color);
   color: var(--bg-primary-color);
   border-radius: 2px;
@@ -694,10 +694,9 @@ input:checked + .switch {
   color: var(--bg-primary-color);
 }
 
-.card .icon-header a{
+.card .icon-header a {
   font-size: 1.6rem;
 }
-
 
 /* Responsive */
 @media (max-width: 890px) {
@@ -870,7 +869,7 @@ input:checked + .switch {
     grid-template-columns: 1fr;
   }
 
-  .hire_me_now div{
+  .hire_me_now div {
     flex-direction: column;
   }
 
@@ -878,11 +877,11 @@ input:checked + .switch {
     font-size: 1.6rem;
   }
 
-  .hire_me_now .hire_me{
+  .hire_me_now .hire_me {
     padding-top: 0;
   }
 
-  .hire_me h1{
+  .hire_me h1 {
     margin-top: 0;
   }
 }
