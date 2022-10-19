@@ -538,7 +538,8 @@ input:checked + .switch {
   top: 40px;
   left: 0;
   padding: 1.5rem 1rem;
-  background: var(--bg-secondary-color);
+  background: var(--text-primary-color);
+  color: var(--bg-primary-color);
 }
 
 .project-content .project-image:hover .btn {
@@ -547,7 +548,6 @@ input:checked + .switch {
 
 .project-content .btn:hover {
   background: var(--primary-color);
-  color: var(--bg-primary-color);
 }
 
 .project-content .project-image img {
@@ -890,4 +890,18 @@ input:checked + .switch {
   #header::after {
     top: 50%;
   }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background-color: #d3d3d3;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00c2cb;
+  border-radius: 8px;
 }
