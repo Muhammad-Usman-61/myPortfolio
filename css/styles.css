@@ -952,7 +952,7 @@ input:checked + .switch {
 }
 
 .menu__link {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #fff;
   margin: 0 10px;
   display: inline-block;
@@ -969,7 +969,7 @@ input:checked + .switch {
 .footer p {
   color: #fff;
   margin: 15px 0 10px 0;
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 300;
 }
 
