@@ -955,7 +955,7 @@ input:checked + .switch {
 }
 
 .social-icon__link {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #fff;
   margin: 0 10px;
   display: inline-block;
