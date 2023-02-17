@@ -49,20 +49,19 @@ body {
 .whatsapp{
   position: fixed;
   width: 8rem;
-  right: 1rem;
+  right: 2rem;
   bottom: 2rem;
   animation: whatsapp-anim 1s alternate-reverse infinite;
   z-index: 3333;
+  border-radius: 50%;
+ padding: 4px 4px 0 4px;
 }
 @keyframes whatsapp-anim {
   0%{
-transform: translateY(5px);
+box-shadow: 0 0 2px rgb(0, 255, 17);
   }
   50%{
-    transform: translateY(-5px);
-  }
-  100%{
-    transform: translateY(5px);
+    box-shadow: 0 0 4px rgb(0, 255, 17);
   }
 }
 .container {
