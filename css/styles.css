@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -45,6 +45,9 @@ body {
   font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.3;
   font-size: 1.6rem;
+}
+.newFont{
+  font-family: "Courgette", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .whatsapp{
   position: fixed;
@@ -1219,3 +1222,4 @@ input:checked + .switch {
   background-color: hsl(232, 90%, 95%);
   z-index: 100000;
 }
+
