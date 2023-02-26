@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@600&display=swap");
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -47,10 +47,10 @@ body {
   line-height: 1.3;
   font-size: 1.6rem;
 }
-.newFont{
+.newFont {
   font-family: "Courgette", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.whatsapp{
+.whatsapp {
   position: fixed;
   width: 8rem;
   right: 2rem;
@@ -58,13 +58,13 @@ body {
   animation: whatsapp-anim 1s alternate-reverse infinite;
   z-index: 3333;
   border-radius: 50%;
- padding: 4px 4px 0 4px;
+  padding: 4px 4px 0 4px;
 }
 @keyframes whatsapp-anim {
-  0%{
-box-shadow: 0 0 2px rgb(0, 255, 17);
+  0% {
+    box-shadow: 0 0 2px rgb(0, 255, 17);
   }
-  50%{
+  50% {
     box-shadow: 0 0 4px rgb(0, 255, 17);
   }
 }
@@ -998,7 +998,7 @@ input:checked + .switch {
   width: 100%;
   height: 100px;
   background: url(../images/wave1.png);
-  background-size: 1000px 100px;hello
+  background-size: 1000px 100px;
 }
 
 .wave#wave1 {
@@ -1055,12 +1055,12 @@ input:checked + .switch {
 .pl__inner-ring,
 .pl__outer-ring,
 .pl__track-cover {
-	border-radius: 50%;
+  border-radius: 50%;
 }
 .pl {
-	position: relative;
-	width: 16em;
-	height: 16em;
+  position: relative;
+  width: 16em;
+  height: 16em;
 }
 .pl__ball,
 .pl__ball-inner-shadow,
@@ -1071,147 +1071,147 @@ input:checked + .switch {
 .pl__inner-ring,
 .pl__outer-ring,
 .pl__track-cover {
-	position: absolute;
+  position: absolute;
 }
 .pl__ball,
 .pl__ball-inner-shadow,
 .pl__ball-outer-shadow,
 .pl__ball-texture:before,
 .pl__track-cover {
-	animation: ball 2s linear infinite;
+  animation: ball 2s linear infinite;
 }
 .pl__ball {
-	top: calc(50% - 1.25em);
-	left: calc(50% - 1.25em);
-	transform: rotate(0) translateY(-6.5em);
-	width: 2.5em;
-	height: 2.5em;
+  top: calc(50% - 1.25em);
+  left: calc(50% - 1.25em);
+  transform: rotate(0) translateY(-6.5em);
+  width: 2.5em;
+  height: 2.5em;
 }
 .pl__ball-inner-shadow {
-	animation-name: ballInnerShadow;
-	box-shadow:
-		0 0.1em 0.2em hsla(0, 0%, 0%, 0.3),
-		0 0 0.2em hsla(0, 0%, 0%, 0.1) inset,
-		0 -1em 0.5em hsla(0, 0%, 0%, 0.15) inset;
-	width: 100%;
-	height: 100%;
+  animation-name: ballInnerShadow;
+  box-shadow: 0 0.1em 0.2em hsla(0, 0%, 0%, 0.3),
+    0 0 0.2em hsla(0, 0%, 0%, 0.1) inset,
+    0 -1em 0.5em hsla(0, 0%, 0%, 0.15) inset;
+  width: 100%;
+  height: 100%;
 }
 .pl__ball-outer-shadow {
-	animation-name: ballOuterShadow;
-	background-image: linear-gradient(hsla(0, 0%, 0%, 0.15),hsla(0, 0%, 0%, 0));
-	border-radius: 0 0 50% 50% / 0 0 100% 100%;
-	filter: blur(2px);
-	top: 50%;
-	left: 0;
-	width: 100%;
-	height: 250%;
-	transform: rotate(20deg);
-	transform-origin: 50% 0;
-	z-index: -2;
+  animation-name: ballOuterShadow;
+  background-image: linear-gradient(hsla(0, 0%, 0%, 0.15), hsla(0, 0%, 0%, 0));
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  filter: blur(2px);
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 250%;
+  transform: rotate(20deg);
+  transform-origin: 50% 0;
+  z-index: -2;
 }
 .pl__ball-side-shadows {
-	background-color: hsla(0, 0%, 0%, 0.1);
-	filter: blur(2px);
-	width: 100%;
-	height: 100%;
-	transform: scale(0.75,1.1);
-	z-index: -1;
+  background-color: hsla(0, 0%, 0%, 0.1);
+  filter: blur(2px);
+  width: 100%;
+  height: 100%;
+  transform: scale(0.75, 1.1);
+  z-index: -1;
 }
 .pl__ball-texture {
-	overflow: hidden;
-	width: 100%;
-	height: 100%;
-	transform: translate3d(0,0,0);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
 }
 .pl__ball-texture:before {
-	animation-name: ballTexture;
-	animation-duration: 0.25s;
-	background: url(https://assets.codepen.io/416221/snow.jpg) 0 0 / 50% 100%;
-	content: "";
-	display: block;
-	filter: brightness(1.05);
-	top: 0;
-	right: 0;
-	width: 200%;
-	height: 100%;
+  animation-name: ballTexture;
+  animation-duration: 0.25s;
+  background: url(https://assets.codepen.io/416221/snow.jpg) 0 0 / 50% 100%;
+  content: "";
+  display: block;
+  filter: brightness(1.05);
+  top: 0;
+  right: 0;
+  width: 200%;
+  height: 100%;
 }
 .pl__inner-ring {
-	box-shadow:
-		0 -0.25em 0.5em hsla(0, 0%, 100%, 0.4),
-		0 0.5em 0.75em hsla(0, 0%, 100%, 0.4) inset,
-		0 0.5em 0.375em hsla(0, 0%, 0%, 0.15),
-		0 -0.5em 0.75em hsla(0, 0%, 0%, 0.15) inset;
-	top: 2.375em;
-	left: 2.375em;
-	width: calc(100% - 4.75em);
-	height: calc(100% - 4.75em);
+  box-shadow: 0 -0.25em 0.5em hsla(0, 0%, 100%, 0.4),
+    0 0.5em 0.75em hsla(0, 0%, 100%, 0.4) inset,
+    0 0.5em 0.375em hsla(0, 0%, 0%, 0.15),
+    0 -0.5em 0.75em hsla(0, 0%, 0%, 0.15) inset;
+  top: 2.375em;
+  left: 2.375em;
+  width: calc(100% - 4.75em);
+  height: calc(100% - 4.75em);
 }
 .pl__outer-ring {
-	box-shadow:
-		0 -0.45em 0.375em hsla(0, 0%, 0%, 0.15),
-		0 0.5em 0.75em hsla(0, 0%, 0%, 0.15) inset,
-		0 0.25em 0.5em hsla(0, 0%, 100%, 0.4),
-		0 -0.5em 0.75em hsla(0, 0%, 100%, 0.4) inset;
-	top: 0.75em;
-	left: 0.75em;
-	width: calc(100% - 1.5em);
-	height: calc(100% - 1.5em);
+  box-shadow: 0 -0.45em 0.375em hsla(0, 0%, 0%, 0.15),
+    0 0.5em 0.75em hsla(0, 0%, 0%, 0.15) inset,
+    0 0.25em 0.5em hsla(0, 0%, 100%, 0.4),
+    0 -0.5em 0.75em hsla(0, 0%, 100%, 0.4) inset;
+  top: 0.75em;
+  left: 0.75em;
+  width: calc(100% - 1.5em);
+  height: calc(100% - 1.5em);
 }
 .pl__track-cover {
-	animation-name: trackCover;
-	background-image: conic-gradient(hsla(223, 90%, 95%, 1) 210deg, hsla(223, 90%, 95%, 0) 270deg);
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  animation-name: trackCover;
+  background-image: conic-gradient(
+    hsla(223, 90%, 95%, 1) 210deg,
+    hsla(223, 90%, 95%, 0) 270deg
+  );
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Animations */
 @keyframes ball {
-	from {
-		transform: rotate(0) translateY(-6.5em);
-	}
-	50% {
-		transform: rotate(180deg) translateY(-6em);
-	}
-	to {
-		transform: rotate(360deg) translateY(-6.5em);
-	}
+  from {
+    transform: rotate(0) translateY(-6.5em);
+  }
+  50% {
+    transform: rotate(180deg) translateY(-6em);
+  }
+  to {
+    transform: rotate(360deg) translateY(-6.5em);
+  }
 }
 @keyframes ballInnerShadow {
-	from {
-		transform: rotate(0);
-	}
-	to {
-		transform: rotate(-360deg);
-	}
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
 }
 @keyframes ballOuterShadow {
-	from {
-		transform: rotate(20deg);
-	}
-	to {
-		transform: rotate(-340deg);
-	}
+  from {
+    transform: rotate(20deg);
+  }
+  to {
+    transform: rotate(-340deg);
+  }
 }
 @keyframes ballTexture {
-	from {
-		transform: translateX(0);
-	}
-	to {
-		transform: translateX(50%);
-	}
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50%);
+  }
 }
 @keyframes trackCover {
-	from {
-		transform: rotate(0);
-	}
-	to {
-		transform: rotate(360deg);
-	}
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-#splash{
+#splash {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -1223,4 +1223,3 @@ input:checked + .switch {
   background-color: hsl(232, 90%, 95%);
   z-index: 100000;
 }
-
