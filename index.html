@@ -1,588 +1,717 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Muhammad Usman is a Frontend Developer and technical writer based in Pakistan who is passionate about building web solutions and products"
-    />
-    <meta name="keywords" content="Frontend Developer" />
-    <meta property="og:type" content="website" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammad Usman - Portfolio Website" />
+	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+	<meta name="author" content="Muhammad Usman" />
+    <title>Muhammad Usman - Portfolio Website</title>
+  <!--favicon-img--> 
+   <link rel="icon" type="image/png" href="images/logo_black.png">
+   <!--favicon-img-->
+   <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/index.css">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
+<body>
+    <!--contains all the div-->
+    <div id="all">
+    <!--mouse  follower-->
+        <div class="cursor"></div>
+    <!--mouse  follower-->
+    <!--loader-->
+        <div id="loader">
+            <span class="color">Muhammad</span>Usman 
+        </div>
+    <!--loader-end-->
+    <!--link-screen-->
+        <div id="breaker">
+        </div>
+        <div id="breaker-two">
+        </div>
+    <!--link-screen-->
+        <!--Main-Section-->
+        <!--Navigator-fullscreen-->
+        <div id="navigation-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="HOME" id="home-link" >HOME</a>
+                <a href="#" data-text="ABOUT" id="about-link" >ABOUT</a>
+                <a href="#" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
+                <a href="#" data-text="CONTACT" id="contact-link" >CONTACT</a>
+            </div>
+        </div>
+        <!--Navigator-Fullscreen END-->
+          <!--Home Page-->
+        <!--Menubar-->
+        <div id="navigation-bar">
+            <img src="images/logo.png" alt="logo">
+            <div class="menubar">
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+            </div>
+        </div>
+        <!--Menubar End-->
+          <!--Header-->
+        <div id="header">
+            <div id="particles"></div>
+              <!--Social Media Links-->
+            <div class="social-media-links">
+               <a href="#"><img class="social-media" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/215/ffffff/external-github-with-cat-logo-an-online-community-for-software-development-logo-bold-tal-revivo.png" alt="github"/></a>
+               <a href="#"><img src="https://img.icons8.com/ios-filled/500/ffffff/linkedin.png" class="social-media" alt="linkedin"/></a>
 
-    <title>Muhammad Usman - Frontend Developer</title>
-    <link
-      rel="shortcut icon"
-      href="./images/logo_white.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <script
-      src="https://kit.fontawesome.com/14589268d4.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
-  </head>
-  <body>
-
-<div class="whatsapp">
-  <a href="https://wa.me/923014728196" target="_blank"><img src="./images/whatsapp.png" alt="whatsapp-icon" title="Chat on Whatsapp"></a>
-</div>
-    <div class="music" id="music">
-      <p>
-        <i class="fa-solid fa-music"></i>
-        <span id="sound">Sound</span>
-      </p>
-      <div class="button button1" id="button1">
-        <p>OFF</p>
-      </div>
-      <div class="button button2" id="button2">
-        <p>ON</p>
-      </div>
+            </div>
+            <!--Social Media Links end-->
+            <div class="header-content">
+                <div class="header-content-box">
+                <div class="firstline"><span class="color">Muhammad </span>Usman</div>
+                <div class="secondline">
+                I'm a
+            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Shopify Developer.", " Web Developer.", " Freelancer." ]'></span>
+            <span class="slash">|</span>
+        </div>
+                    <div class="contact">
+                <a href="Mailto:muhammad196usman@gmail.com"><img class="contactpic" src="https://img.icons8.com/ios-filled/512/ffffff/secured-letter--v1.png" alt="secured-letter--v1"/></a><!--Your email Id write in place of "#"-->
+                <a href="Tel:+923014728196"><img src="images/call.png" alt="phone-pic" class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
+                    </div>    
+            </div>
+            </div>
+           
+        </div>
+           <!--Header End-->
+        <!--HomePage End-->
+        <!--Main-Section End-->
+        <!--about-->
+        <div id="about">
+            <div class="color-changer">
+            <div class="color-panel">
+                <img src="images/gear.png" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <!--about content-->
+            <div id="about-content">
+                <div class="about-header">
+                    About <span class="color">Me</span>
+                    <span class ="header-caption">Get to Know <span class="color"> me.</span></span>
+                </div>
+                <div class="about-main">
+            <div class="about-first-paragraph wow">
+            <!--about description-->
+               <span class="about-first-line">
+                    I'm creative 
+                    <span class="color">Shopify / Web developer</span>   
+                     based in Islamabad , Pakistan </span>
+                     <br>
+               <span class="about-second-line"> Experienced Shopify developer with a proven track record in international collaborations. Passionate about delivering top-notch e-commerce solutions. Expert in bug fixing, captivating feature creation, and theme customization using Liquid and Vanilla JavaScript.</span>
+               <br>
+               <span class="about-second-line">My journey as a web developer has equipped me with a diverse skill set that extends beyond Shopify. I am well-versed in JavaScript, Vue js, Nuxt js, and Tailwind CSS. Whether it's crafting responsive web applications or optimizing user experiences, I take pride in my ability to bring your ideas to life.</span>  
+                
+               <div class="cv">
+                <a href="./CV Muhammad Usman.pdf"><button>Download <span class="colors">CV</span></button></a>
+            </div>
+            </div>
+            <!--about picture-->
+            <div class="about-img">
+                <img src="images/about.jpg" alt="Your Image">
+            </div>
+            </div>
+    
+            </div>
+            <!--services start-->
+            <div id="services">
+                <div class="color-changer">
+                    <div class="color-panel">
+                        <img src="images/gear.png" alt="">
+                    </div>
+                    <div class="color-selector">
+                        <div class="heading">Custom Colors</div>
+                        <div class="colors">
+                            <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+            <!--services header-->
+                    <div class="services-heading wow">
+                        <span class="color">My</span> Services
+                    </div>
+            <!--services header end-->
+            <!--services content-->
+                    <div class="services-content">
+                           <div class="service-one service wow">
+                               <div class="service-img">
+                               <img src="images/coding.png" alt="service-one">
+                               </div>
+                               <div class="service-description">
+                                <h2>Shopify Store Development</h2>
+                                <p>Tailored store development and optimization services to enhance your online retail presence.</p>
+                               </div>
+                           </div>
+                           <div class="service-two service wow">
+                               <div class="service-img">
+                                <img src="https://img.icons8.com/ios/100/ffffff/maintenance--v1.png" alt="maintenance--v1"/>
+                               </div>
+                               <div class="service-description">
+                                <h2>Shopify Store Customization</h2>
+                                <p>Elevate your Shopify store's functionality with custom code design and feature development.</p>
+                               </div>
+                           </div>
+                           <div class="service-three service wow">
+                            <div class="service-img">
+                               <img src="images/bulb.png" alt="service-three">
+                            </div>
+                            <div class="service-description">
+                                <h2>Shopify Technical Support & Maintenance</h2>
+                                <p>Reliable bug-fixing and technical support services to ensure your Shopify store operates flawlessly.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--services content end-->
+            <!--services end-->
+            <div id="skills">
+                <div class="skills-header">
+                     My <span class="color"> Skills</span>
+                </div>
+                <div class="skills-content " style="text-align: center;">
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        HTML/CSS
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="html-progress wow">95%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                      Javascript
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="js-progress wow">90%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Liquid
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="adobe-progress wow">83%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        JQuery
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="php-progress wow">87%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Nuxt.js
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="jquery-progress wow">94%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Vue.js
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="seo-progress wow">84%</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+             <div class="footer-text">
+                 <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Muhammad Usman
+             </div>
+            </div>
+    <!--copyright-section-->
+        </div>
+        <!--about end-->
+        <!--portfolio-->
+        <div id="portfolio">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+        <div class="portfolio-header"></span>  <span class="color"> My </span> Portfolio
+            <span class ="header-caption"> Some Of My <span class="color"> Works</span></span></div>
+            <div class="portfolio-content">
+                 <div class="portfolios">
+                     <a href="#">
+                     <div class="img">
+                        <img src="images/post-one.png" alt="post-one">
+                        <a href="https://zenmed.com/" target="_blank" class="store-link">Visit Store</a>
+                     </div>
+                     <div class="portfolio-text">
+                         <h3>Zenmed</h3>
+                         <p>ZENMED – Reconstructive Skincare
+                            We believe that healthier skin should not come at a price: To your health, the environment, or to animals. We are proud 
+                            to offer our thoughtfully-created formulations as an alternative to the prescription pad and expensive and temporary cosmetic treatments.</p>
+                     </div></a>
+                 </div>      
+                 <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-two.png" alt="post-two">
+                        <a href="https://fitzgibboninteriors.ie/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Fitzgibbon Interiors</h3>
+                        <p>At Fitzgibbon Interiors we endeavor to bring you all the latest trends and colours for all your flooring queries.</p>
+                    </div></a>
+                </div>      
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-three.png" alt="post-three">
+                        <a href="https://stoxautosport.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Stox Autosport</h3>
+                        <p>STOX was made to bring you exceptional modification brands together in one place. 
+                            From niche, exclusive suppliers to established mainstream distributors, we’re
+                             harnessing the power of these companies and making them reachable to you.</p>
+                    </div></a>
+                </div>
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-four.png" alt="post-four">
+                        <a href="https://ericajewels.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Erica Jewels</h3>
+                        <p>Erica Jewels is an independent brand, specialising in handcrafted high quality piercing jewelry and sterling silver jewelry. </p>
+                    </div></a>
+                </div>  
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-five.png" alt="post-five">
+                        <a href="https://22trendz.ie/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>22 Trendz</h3>
+                        <p>22Trendz is a fashion and footwear boutique conveniently located on William Street in Tullamore, Co. Offaly
+                            . It uniquely offers the perfect mix of on-trend styles, comfort and timeless elegance.</p>
+                    </div></a>
+                </div>  
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-six.png" alt="post-six">
+                        <a href="https://www.sticlinicaustralia.com.au/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>STI Clinic Australia</h3>
+                        <p>Our virtual sexual health and STI Clinic is committed to providing compassionate & professional care to individuals nationwide. 
+                            We believe that sexual well-being is a fundamental aspect of overall health and happiness, and it should be accessible to everyone.</p>
+                    </div></a>
+                </div>  
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-seven.png" alt="post-seven">
+                        <a href="https://capdinspiredhairinc.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Capd Inspired Hair</h3>
+                        <p>CAPD embraces the belief that beauty is not only about appearances but also about self-expression and enjoying the present moment.</p>
+                    </div></a>
+                </div>  
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-eight.png" alt="post-eight">
+                        <a href="https://laundrybagsonline.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Laundry Bags Online</h3>
+                        <p>We are USA Manufacturing Company with over 30 years of experience in Laundry Bag business.
+                            We do all production on premises, including cutting, sewing, silk screening, sublimation printing.</p>
+                    </div></a>
+                </div>  
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-nine.png" alt="post-nine">
+                        <a href="https://us.store.tp-link.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>TP-Link</h3>
+                        <p>Founded in 1996, TP-Link is a global provider of reliable networking devices and accessories, involved in all aspects of everyday life.</p>
+                    </div></a>
+                </div>   
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-ten.png" alt="post-ten">
+                        <a href="https://infightstyle.au/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Infight Style</h3>
+                        <p>Infightstyle is a modern Muay Thai brand producing premium Muay Thai fight gear and apparel. 
+                            Trusted by One Championship fighters and elite trainers around the world.</p>
+                    </div></a>
+                </div>   
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-eleven.png" alt="post-eleven">
+                        <a href="https://cardtegories.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>CardTegories</h3>
+                        <p>A fun card game for parties, game nights, picnics, pre-games, a casual hangout with friends and more.</p>
+                    </div></a>
+                </div>    
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-twelve.png" alt="post-eleven">
+                        <a href="https://pupring.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Pupring</h3>
+                        <p>A new way to keep your dog, close to your heart. Now you and your family can celebrate your best friend with a simple pet face necklace.</p>
+                    </div></a>
+                </div>  
+                 <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-thirteen.png" alt="post-thirteen">
+                        <a href="https://dev-shiose.myshopify.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>塩瀬と和菓子の物語</h3>
+                        <p>和菓子界に革命を起こした饅頭は、その成り立ちを明確に追える数少ないお菓子です。塩瀬は六七〇年余りの間饅頭を通じて和菓子と向き合ってきました。歴代当主が紡いできたその物語はまさに和菓子の歴史そのものです。</p>
+                    </div></a>
+                </div> 
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-fourteen.png" alt="post-fourteen">
+                        <a href="https://www.qodgolf.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>QOD Golf</h3>
+                        <p>This is the best Australian Made electric buggy on the market. Our inspirational design is based upon 10 years of detailed research. We studied how golf buggies run,
+                             break and how golfers like to use them.</p>
+                    </div></a>
+                </div>   
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-fifteen.png" alt="post-fifteen">
+                        <a href="https://sneakersnova.myshopify.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>SNEAKERSNOVA</h3>
+                        <p>At SneakersNova, we're more than just an online store; we're a community of sneaker enthusiasts dedicated 
+                            to providing you with the latest and greatest in footwear fashion.</p>
+                    </div></a>
+                </div>  
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-sixteen.png" alt="post-sixteen">
+                        <a href="https://bolo-cakery.myshopify.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Bolo Cakery</h3>
+                        <p>At Bolo, we are on a mission to revolutionize the world of desserts and celebrations. We believe that cakes can be more than just delicious treats,
+                             they can be a source of magic and sparkle.</p>
+                    </div></a>
+                </div> 
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-seventeen.png" alt="post-seventeen">
+                        <a href="https://www.kindbag.co/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Kind Bag London</h3>
+                        <p>Looking to create bespoke bags or accessories for corporate gifts, merchandising, or your brand? We can make completely customisable accessories all 
+                            made 100% from recycled plastic bottles!</p>
+                    </div></a>
+                </div>
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-eighteen.png" alt="post-eighteen">
+                        <a href="https://www.switch-art.ca/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Switch Art</h3>
+                        <p>The future of wall art & home decor– Switch-Art</p>
+                    </div></a>
+                </div>
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-nineteen.png" alt="post-nineteen">
+                        <a href="https://www.zapicon.de/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Zapicon</h3>
+                        <p>Unsere Mission ist es, einen nachhaltigen und umweltfreundlichen Autoduft zu schaffen, der die Bedürfnisse unserer Kunden erfüllt und gleichzeitig
+                             einen Beitrag zu weniger Verschmutzung durch Einweg-Autodüfte leistet.</p>
+                    </div></a>
+                </div>
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-twenty.png" alt="post-twenty">
+                        <a href="https://www.lionandlucy.de/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Lion & Lucy</h3>
+                        <p>THE BEST ALTERNATIVE TO THE EXPENSIVE NICHE SCENT!  – Lion&Lucy Fragrances</p>
+                    </div></a>
+                </div>
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-twentyOne.png" alt="post-twentyOne">
+                        <a href="https://www.nobubeds.co.uk/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Nobu Beds</h3>
+                        <p>Tailored Luxury for Every Space: Nobu Beds, Where Customisation Meets Elegance.</p>
+                    </div></a>
+                </div>
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-twentyTwo.png" alt="post-twentyTwo">
+                        <a href="https://apptileshop.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Apptile</h3>
+                        <p>At Apptile, we believe that everyone deserves beautiful, durable flooring at a fair price.</p>
+                    </div></a>
+                </div>
+                <div class="portfolios">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-twentyThree.png" alt="post-twentyThree">
+                        <a href="https://ab4673-2.myshopify.com/" target="_blank" class="store-link">Visit Store</a>
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Gebr. Alexander 1782</h3>
+                        <p>Gebr. Alexander - built in Mainz, played all over the world </p>
+                    </div></a>
+                </div>
+            </div>
+               <!--copyright-section-->
+               <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Muhammad Usman
+                </div>
+               </div>
+       <!--copyright-section-->
+        </div>
+        <!--portfolio end-->
+        <!--contact-->
+     <div id="contact">
+        <div class="color-changer">
+            <div class="color-panel">
+                <img src="images/gear.png" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Custom Colors</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+         <div class="contact-header">Contact <span class="color"> Me</span>
+        <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div></div>
+        <div class="contact-content">
+            <!--Contact form-->
+             <div class="contact-form">
+                 <div class="form-header">
+                     Message Me on <span class="color"> WhatsApp</span>
+                 </div> 
+                 <div class="whatsapp-image">
+                    <a href="https://wa.me/+3014728196" target="_blank"><img src="./images/3d-fluency-whatsapp-logo.png" alt="whatsapp" class="whatsapp"></a>
+                 </div>
+               
+             </div>
+            <!--Contact form-->
+            <!--Contact information-->
+             <div class="contact-info">
+                <div class="contact-info-header">
+                    Contact Info
+                </div>
+                <div class="contact-info-content">
+                <div class="contect-info-content-line">
+                    <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                    <div class="contact-info-icon-text">
+                        <h6>Name</h6>
+                        <p>Muhammad Usman</p>
+                  </div>
+                </div>
+                <div class="contect-info-content-line">
+                  <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Location</h6>
+                      <p>Islamabad, Pakistan</p>
+                </div>
+              </div>
+              <div class="contect-info-content-line">
+                  <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Call</h6>
+                      <p>+923014728196</p>
+                </div>
+              </div>
+              
+              <div class="contect-info-content-line">
+                  <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Email</h6>
+                      <p>muhammad196usman@gmail.com</p>
+                </div>
+              </div>
+                </div>
+            <!--Contact information end-->
+           </div>
+        </div>
+                    <!--copyright-section You Can Remove After Downloading-->
+                    <div class="footer">
+                        <div class="footer-text">
+                            <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Muhammad Usman
+                        </div>
+                       </div>
+               <!--copyright-section-->
+     </div>
+        <!--contact end-->
     </div>
-    <header id="header">
-      <nav class="navBar">
-        <a href="/"
-          ><img class="logo" src="./images/logo_black.png" alt=""
-        /></a>
+    <!--all the divisions-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/index.js"></script>
+    <!--particles script-->
+    <script>
+  particlesJS("particles", {"particles":{"number":{"value":70,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+    </script>
 
-        <div id="menu">
-          <ul class="header_content">
-            <li class="nav-items">
-              <a href="#about" class="btn nav-link"
-                ><i class="nav-icon fas fa-user"></i>About</a
-              >
-            </li>
-            <li class="nav-items">
-              <a href="#skills" class="btn nav-link"
-                ><i class="nav-icon fas fa-cog"></i>Skills</a
-              >
-            </li>
-            <li class="nav-items">
-              <a href="#projects" class="btn nav-link"
-                ><i class="nav-icon fas fa-code"></i>Projects</a
-              >
-            </li>
-            <li class="nav-items">
-              <a href="#hire" class="btn nav-link"
-                ><i class="nav-icon fas fa-address-book"></i>Contact</a
-              >
-            </li>
-            <div class="theme-switcher">
-              <label class="theme-switch" for="checkbox">
-                <input type="checkbox" id="checkbox" />
-                <div class="switch"></div>
-              </label>
-            </div>
-          </ul>
-
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </div>
-      </nav>
-
-      <section class="content container">
-        <div class="content_text">
-          <h1>Hello!</h1>
-          <h2>
-            I am
-            <a
-              href="javascript:void(0)"
-              class="typewrite"
-              data-period="2000"
-              data-type='[ "Usman", "عثمان"]'
-              style="cursor: text;"
-            >
-              <span class="wrap"></span>
-            </a>
-          </h2>
-          <h3 class="newFont">Frontend Web Developer</h3>
-          <p>
-            I create websites with a focus on responsive design and
-            accessibility. Also, I am working on Shopify and Wordpress porjects.
-          </p>
-
-          <a href="mailto:muhammad196usman@gmail.com" class="hello_button" 
-            >Say Hello <i class="fa-solid fa-envelope"></i
-          ></a>
-          <a href="#about" class="about_button">About Me</a>
-          <div class="links">
-            
-            <a href="https://github.com/Muhammad-Usman-61" target="”_blank”" title="Github"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-            <a href="https://www.linkedin.com/in/muhammad-usman-794205247" target="”_blank”" title="Linkedin"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/muhammad_usman19/"
-              target="”_blank”" title="Instagram"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-          </div>
-        </div>
-        <div class="hello">
-          <div class="content_image grid">
-            <img class="iii" src="./images/profile-pic.png" alt="" />
-          </div>
-        </div>
-      </section>
-    </header>
-
-    <main>
-      <section id="about">
-        <div class="bio container">
-          <h4>____About Me____</h4>
-          <p>
-            I’m Muhammad Usman, a Front-End Developer based in Pakistan. I have
-            a serious passion for UI effects, animations and creating intuitive,
-            dynamic user experiences. I am highly proficient in html and CSS,
-            but have built some other projects with JavaScript and jQuery. I am
-            currently working on improving my JavaScript skills by building
-            various projects to enhance my abilities. Interested in the entire
-            frontend spectrum and working on ambitious projects with positive
-            people.
-          </p>
-        </div>
-      </section>
-
-       <section id="skills">
-        <div class="icons-container container">
-          <div class="icons">
-            <h1 class="skills_heading">____My Skills____</h1>
-            <span class="icon fab fa-html5" title="HTML5"></span>
-            <span class="icon fab fa-css3-alt" title="CSS3"></span>
-            <span class="icon fab fa-js" title="JavaScript"></span>
-            <span class="icon fab fa-git-alt" title="Git"></span>
-            <span class="icon fab fa-bootstrap" title="Bootstrap"></span>
-            <span class="icon fa-brands fa-shopify" title="Shopify"></span>
-            
-          </div>
-        </div>
-      </section>
-      
-      <section id="projects" class="projects">
-        <div class="container">
-          <h2 class="head-text">
-            ____FEATURED PROJECTS____</span>
-          </h2>
-          <div class="projects_part">
-            <!-- Project 1 -->
-            <article class="project-content">
-              <div class="project-image project-image-one">
-                <img
-                  src="./images/Screenshot 2023-02-17 152745.png"
-                  alt="Nobu Beds"
-                />
-                <a
-                  class="btn btn-one"
-                  href="#"
-                  target=""
-                  >Not Published By Owner Yet</a
-                >
-              </div>
-              <div class="card-content">
-                <h2>Nobu Beds</h2>
-                <p>
-                 This is a Shopify Store for Nobu Beds Seller based in UK. This is a eCommerce store and the focus is on delivering content that can help guide potential clients throughout their buying or selling process. </p>
-                <div class="project-info">
-                  <div class="stack">
-                    <small class="language">Shopify and by using Custom Liquid</small>
-
-                  </div>
-                  
-                </div>
-              </div>
-            </article>
-            <!-- Project 2 -->
-            <article class="project-content">
-              <div class="project-image project-image-one">
-                <img
-                  src="./images/allied-properties.jpg"
-                  alt="Allied Properties"
-                />
-                <a
-                  class="btn btn-one"
-                  href="https://allied-properties.vercel.app/"
-                  target="_blank"
-                  >Preview Link</a
-                >
-              </div>
-              <div class="card-content">
-                <h2>Allied Properties</h2>
-                <p>
-                 This is a Real-Estate website for Allied Properties. The focus is on delivering content that can help guide potential clients throughout their buying or selling process. </p>
-                <div class="project-info">
-                  <div class="stack">
-                    <small class="language">HTML5</small>
-                    <small class="language">CSS</small>
-                    <small class="language">JavaScript</small>
-                  </div>
-                  <div class="project-links">
-                    <a
-                      href="https://github.com/Muhammad-Usman-61/Allied-Properties"
-                      target="_blank"
-                      ><i class="fab fa-github"></i
-                    ></a>
-                    <a
-                      href="https://allied-properties.vercel.app/"
-                      target="_blank"
-                      ><i class="fas fa-external-link-alt"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <!-- Project 3 -->
-            <article class="project-content">
-              <div class="project-image project-image-one">
-                <img
-                  src="./images/e-tokenization.png"
-                  alt="E-Tokenization"
-                />
-                <a
-                  class="btn btn-one"
-                  href="https://e-tokenization.vercel.app/"
-                  target="_blank"
-                  >Preview Link</a
-                >
-              </div>
-              <div class="card-content">
-                <h2>E-Tokenization</h2>
-                <p>
-                  This is a static E-Tokenization website. For any health concern, online token generator for appointments with verified doctors in all specialists.
-                 <div class="project-info">
-                  <div class="stack">
-                    <small class="language">HTML5</small>
-                    <small class="language">CSS</small>
-                    <small class="language">JavaScript</small>
-                  </div>
-                  <div class="project-links">
-                    <a
-                      href="https://github.com/Muhammad-Usman-61/Health-Tech"
-                      target="_blank"
-                      ><i class="fab fa-github"></i
-                    ></a>
-                    <a
-                      href="https://e-tokenization.vercel.app/"
-                      target="_blank"
-                      ><i class="fas fa-external-link-alt"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </article>
-             <!-- Project 4 -->
-            <article class="project-content">
-              <div class="project-image project-image-one">
-                <img
-                  src="./images/moshify.png"
-                  alt="Moshify Clone"
-                />
-                <a
-                  class="btn btn-one"
-                  href="https://moshify-clone.vercel.app/"
-                  target="_blank"
-                  >Preview Link</a
-                >
-              </div>
-              <div class="card-content">
-                <h2>Moshify Clone</h2>
-                <p>
-                  This is a static clone of Moshify landing page, an awesome cloud hosting service for developers. Optimized With Design Freedom, Marketing Tools, Insightful Analytics and Scalable Growth. Based on extensive testing, Moshify® is offering an impressive feature set.
-                </p>
-                <div class="project-info">
-                  <div class="stack">
-                    <small class="language">HTML5</small>
-                    <small class="language">CSS</small>
-                    <small class="language">JavaScript</small>
-                  </div>
-                  <div class="project-links">
-                    <a
-                      href="https://github.com/Muhammad-Usman-61/Moshify-Clone"
-                      target="_blank"
-                      ><i class="fab fa-github"></i
-                    ></a>
-                    <a
-                      href="https://moshify-clone.vercel.app/"
-                      target="_blank"
-                      ><i class="fas fa-external-link-alt"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </article>
-             <!-- Project 5 -->
-            <article class="project-content">
-              <div class="project-image project-image-one">
-                <img
-                  src="./images/tesla.png"
-                  alt="Tesla Clone"
-                />
-                <a
-                  class="btn btn-one"
-                  href="https://tesla-puce.vercel.app/"
-                  target="_blank"
-                  >Preview Link</a
-                >
-              </div>
-              <div class="card-content">
-                <h2>Tesla Clone</h2>
-                <p>
-                  This is a static clone of Tesla landing page. Tesla designs and manufactures electric vehicles, battery energy storage from home to grid-scale, solar panels and solar roof tiles, and related products and services.
-                </p>
-                <div class="project-info">
-                  <div class="stack">
-                    <small class="language">HTML5</small>
-                    <small class="language">CSS</small>
-                    <small class="language">JavaScript</small>
-                  </div>
-                  <div class="project-links">
-                    <a
-                      href="https://github.com/Muhammad-Usman-61/Tesla"
-                      target="_blank"
-                      ><i class="fab fa-github"></i
-                    ></a>
-                    <a
-                      href="https://tesla-puce.vercel.app/"
-                      target="_blank"
-                      ><i class="fas fa-external-link-alt"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-          </section>
-
-          
-      <!-- More Projects -->
-      <section class="more_projects">
-     
-      <h2 class="more_project-head">
-        ____More Projects____<span class="underline underline-secondary"></span>
-      </h2>
-      <div class="project-container container">
-        <div class="card">
-          <div class="icon-header">
-            <a
-              href="https://github.com/Muhammad-Usman-61/Animated-Sign-In-Form"
-              target="_blank"
-              rel="no-opener no-referrer"
-              title="Github"
-              ><span class="fab fa-github"></span
-            ></a>
-            <a
-              href="https://animated-sign-in-form.vercel.app/"
-              target="_blank"
-              rel="no-opener no-referrer"
-              title="Live Preview"
-              ><span class="fas fa-external-link-alt"></span
-            ></a>
-          </div>
-          <header>
-            <h3>Animated Sign-In Form</h3>
-            <p>
-              This is a tutorial project I made to explain how powerful grid
-              is in building complex layouts.
-            </p>
-          </header>
-          <ul>
-            <li class="language">HTML</li>
-            <li class="language">CSS</li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="icon-header">
-            <a
-              href="https://github.com/Muhammad-Usman-61/Light-Bulb-Switch"
-              title="Github"
-              target="_blank"
-              rel="no-opener no-referrer"
-              ><span class="fab fa-github"></span
-            ></a>
-            <a
-              href="https://light-bulb-switch-iota.vercel.app/"
-              title="Live Preview"
-              target="_blank"
-              rel="no-opener no-referrer"
-              ><span class="fas fa-external-link-alt"></span
-            ></a>
-          </div>
-          <header>
-            <h3>Light Bulb Switch</h3>
-            <p>A clean and simple resume. Made with HTML and CSS.</p>
-          </header>
-          <ul>
-            <li class="language">HTML</li>
-            <li class="language">CSS</li>
-            <li class="language">JavaScript</li>
-          </ul>
-        </div>
-        <div class="card">
-          <div class="icon-header">
-            <a
-              href="https://github.com/Muhammad-Usman-61/404-Page-Not-Found"
-              target="_blank"
-              rel="no-opener no-referrer"
-              title="Github"
-              ><span class="fab fa-github"></span
-            ></a>
-            <a
-              href="https://404-page-not-found-seven.vercel.app/"
-              target="_blank"
-              rel="no-opener no-referrer"
-              title="Live Preview"
-              ><span class="fas fa-external-link-alt"></span
-            ></a>
-          </div>
-          <header>
-            <h3>404 Page Not Found</h3>
-            <p>
-              This is an application for tracking your tasks, and adding a
-              simple todo list.
-            </p>
-          </header>
-          <ul>
-            <li class="language">HTML</li>
-            <li class="language">CSS</li>
-          </ul>
-        </div>
-      </div>
-
-    </section>
-
-    <!-- Hire me now -->
-    <section id="hire" class="hire_me_now">
-      <div class="hire_me">
-        <h1 class="newFont">Hire Me Now</h1>
-        <div class="contact_data">
-          <a href="mailto:muhammad196usman@gmail.com" class="btn1">Contact Me <i class="fa-solid fa-envelope"></i
-            ></a>
-          <a href="./CV - Muhammad Usman.pdf" class="btn2">Resume</a>
-        </div>
-      </div>
-    </section>
-
-      <!-- Why should you Hire Me -->
-          <section class="skill">
-          <div class="container">
-            <div class="skills">
-              <div class="skills_header">
-                <h3 class="text-primary">____Benefits____</h3>
-                <h4>Why should you hire me?</h4>
-                <p>
-                  When buidling or cloning web projects, I strongly adhere to
-                  these principles which make my websites both unique and
-                  scaleable.
-                </p>
-              </div>
-              <div class="box-container">
-                <div class="card">
-                  <span class="fas fa-search color-1"></span>
-                  <h3>SEO(Search Engine Optimization)</h3>
-                  <p>
-                    I employ best SEO practices like "Semantic HTML" and more on
-                    websites and projects I work on to improve the site visibility
-                    and rankings on Google.
-                  </p>
-                </div>
-                <div class="card">
-                  <span class="fas fa-mobile-alt color-2"></span>
-                  <h3>Responsive Design</h3>
-                  <p>
-                    I am passionate about responsiveness and making the websites I
-                    build look good on different devices, browsers and cross
-                    platforms using both "mobile first" approach and desktop
-                    "media queries"
-                  </p>
-                </div>
-                <div class="card">
-                  <span class="fas fa-code color-3"></span>
-                  <h3>Reusable & Minimal code</h3>
-                  <p>
-                    I try my best to write as minimal code as possible by using
-                    tools like CSS Variables and writing custom utility classes.
-                  </p>
-                </div>
-                <div class="card">
-                  <span class="fas fa-palette color-4"></span>
-                  <h3>Great UI/UX & Accessibility</h3>
-                  <p>
-                    I have a strong eye for designs, which allows me to transform
-                    templates into pixel-perfect code while making it accessible
-                    to all users.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>]
-
-      <!-- Footer -->
-      <section>
-        <footer class="footer">
-          <div class="waves">
-            <div class="wave" id="wave1"></div>
-            <div class="wave" id="wave2"></div>
-            <div class="wave" id="wave3"></div>
-            <div class="wave" id="wave4"></div>
-          </div>
-          <ul class="social-icon">
-            <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/Muhammad-Usman-61" target="_blank">
-                <ion-icon name="logo-github"></ion-icon>
-              </a></li>
-            <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/muhammad-usman-794205247" target="_blank">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a></li>
-            <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/muhammad_usman19/" target="_blank">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a></li>
-          </ul>
-          <ul class="menu">
-            <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-            <li class="menu__item"><a class="menu__link" href="#about">About</a></li>
-            <li class="menu__item"><a class="menu__link" href="#skills">Skills</a></li>
-            <li class="menu__item"><a class="menu__link" href="#projects">Projects</a></li>
-            <li class="menu__item"><a class="menu__link" href="#hire">Contact</a></li>
-      
-          </ul>
-          <p>&copy;2023 Muhammad Usman | All Rights Reserved</p>
-        </footer>
-        
-      </section>
-
-          <div id="splash">
-              <div class="pl">
-                <div class="pl__outer-ring"></div>
-                <div class="pl__inner-ring"></div>
-                <div class="pl__track-cover"></div>
-                <div class="pl__ball">
-                  <div class="pl__ball-texture"></div>
-                  <div class="pl__ball-outer-shadow"></div>
-                  <div class="pl__ball-inner-shadow"></div>
-                  <div class="pl__ball-side-shadows"></div>
-                </div>
-              </div>
-          </div>
-
-      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="./script.js"></script>
-
-       <script>
-        $(window).on("load",function(){
-           $("body").css("overflow", "hidden");
-           $("#splash").delay(1000).fadeOut("slow", function() {
-               $("body").css("overflow", "visible");
-           });
-        });
-  </script>
-  </body>
+</body>
 </html>
